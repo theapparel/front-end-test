@@ -12,7 +12,7 @@ Welcome to the technical test for front-end developers. For this test, you'll ne
 - Otherwise, you will get an email with a link that includes a query string with a JWT like: `?token=$JWT`
 - Make a "Sign Up" page that gets the same querystring as above, asks the missing fields from the user and calls `signUp` with `token` (the JWT), `firstName`, `lastName` (optional), `phone`, `password`, and an `organization` with `name`, `title`. Ignore the rest.
 - When you call `signIn` or `signUp` successfully, you'll get a `User`. You need to include its `token` which will be a session JWT.
-- From then on, you need to include the session JWT for all requests in the `Authorization` header as `Authorization: Bearer $JWT`
+- From then on, you need to include the session JWT for all requests in the `Authorization` header as `Authorization: Bearer $JWT` (Do not use the JWT from the email/query string here)
 - In both cases, redirect the user to a "Homepage". It should call `me` to get the `User` and show the following fields from it:
   1. Email
   1. First Name
