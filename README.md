@@ -40,5 +40,7 @@ You'll get bonus points the more you include from the following list:
 
 ## Final Notes
 
+Please use **REAL** email addresses that you control when testing. If you need more than one, you use `+` in it. e.g. `myemail+2@gmail.com`.
+
 If you have any questions or something in the API is not working as expected, feel free to consult us via email.
 
