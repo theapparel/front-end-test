@@ -42,5 +42,7 @@ You'll get bonus points the more you include from the following list:
 
 Please use **REAL** email addresses that you control when testing. If you need more than one, you use `+` in it. e.g. `myemail+2@gmail.com`.
 
+The submitted phone number must adhere to the E.164 standard (`+17895551234`). You don't need to support other formats in the UI.
+
 If you have any questions or something in the API is not working as expected, feel free to consult us via email.
 
