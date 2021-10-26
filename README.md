@@ -10,7 +10,7 @@ Welcome to the technical test for front-end developers. For this test, you'll ne
 - Make a "Sign In" screen that calls the `signIn` mutation with an email & password from the user
 - Make an "Identification" page with an email input, when submitted it should call `requestSignUp` with it. If you get an error with `code` `CONFLICT`, you need to redirect to the "Sign In" page
 - Otherwise, you will get an email with a link that includes a query string with a JWT like: `?token=$JWT`
-- Make a "Sign Up" page that gets the same querystring as above, asks the missing fields from the user and calls `signUp` with `token` (the JWT), `firstName`, `lastName` (optional), `phone`, `password`, and an `organization` with `name`, `title`. Ignore the rest.
+- Make a "Sign Up" page that gets the same querystring as above, asks the missing fields from the user and calls `signUp` with `token` (the JWT), `firstName`, `lastName` (optional), `password`, and an `organization` with `name`, `title`. Ignore the rest.
 - When you call `signIn` or `signUp` successfully, you'll get a `User`. You need to include its `token` which will be a session JWT.
 - From then on, you need to include the session JWT for all requests in the `Authorization` header as `Authorization: Bearer $JWT` (Do not use the JWT from the email/query string here)
 - In both cases, redirect the user to a "Homepage". It should call `me` to get the `User` and show the following fields from it:
@@ -41,8 +41,6 @@ You'll get bonus points the more you include from the following list:
 ## Final Notes
 
 Please use **REAL** email addresses that you control when testing. If you need more than one, you use `+` in it. e.g. `myemail+2@gmail.com`.
-
-The submitted phone number must adhere to the E.164 standard (`+17895551234`). You don't need to support other formats in the UI.
 
 If you have any questions or something in the API is not working as expected, feel free to consult us via email.
 
