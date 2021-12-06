@@ -6,7 +6,7 @@ Welcome to the technical test for front-end developers. For this test, you'll ne
 
 - Make a private repo on Github
 - Use React with TypeScript, other than that you can freely choose which libraries you use
-- Integrate with the GraphQL API at https://dev.gql.manufactured.net/graphql
+- Integrate with the GraphQL API at https://dev.gql.manufactured.com/graphql
 - Make a "Sign In" screen that calls the `signIn` mutation with an email & password from the user
 - Make an "Identification" page with an email input, when submitted it should call `requestSignUp` with it. If you get an error with `code` `CONFLICT`, you need to redirect to the "Sign In" page
 - Otherwise, you will get an email with a link that includes a query string with a JWT like: `?token=$JWT`
